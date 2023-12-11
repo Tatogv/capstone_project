@@ -1,0 +1,22 @@
+{
+  "id": "chatcmpl-8UKs1EYRuwShkvvMEmBwbgyDsib9k",
+  "object": "chat.completion",
+  "created": 1702240757,
+  "model": "gpt-3.5-turbo-1106",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"startingItems\": {\n    \"items\": [\"Lost Chapter\", \"Boots of Speed\", \"Health Potion\"],\n    \"explanation\": \"Lost Chapter provides mana sustain and early ability power, Boots of Speed for mobility, and Health Potion for sustain in lane.\"\n  },\n  \"gamePlan\": {\n    \"plan\": \"Azir should focus on poking and zoning with soldiers, as well as providing peel and crowd control for the team. Coordinate engages with Twisted Fate's pick potential and Katarina's burst damage, while using Shyvana and Gwen for frontline and DPS. Prioritize vision control and objectives to create opportunities for your team.\",\n    \"explanation\": \"Azir excels at controlling space with his soldiers and has good synergy with crowd control and burst damage champions like Katarina and Twisted Fate. Coordinating engages with the team and securing objectives will create win conditions for your team.\"\n  },\n  \"optimalBuild\": {\n    \"build\": [\"Luden's Tempest\", \"Sorcerer's Shoes\", \"Nashor's Tooth\", \"Rabadon's Deathcap\", \"Zhonya's Hourglass\", \"Void Staff\"],\n    \"explanation\": \"Luden's Tempest provides burst damage and mana sustain, Sorcerer's Shoes for magic penetration, Nashor's Tooth for attack speed and AP, Rabadon's Deathcap for huge AP boost, Zhonya's Hourglass for survivability, and Void Staff to penetrate enemy magic resist.\"\n  }\n}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 178,
+    "completion_tokens": 310,
+    "total_tokens": 488
+  },
+  "system_fingerprint": "fp_eeff13170a"
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Beaufort';
+  src: local('Beaufort'), url('./fonts/BeaufortforLOL-Regular.ttf') format('tff'),
+}
+
+body {
+  margin: 0;
+  font-family: 'Beaufort';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

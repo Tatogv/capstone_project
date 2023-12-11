@@ -1,0 +1,137 @@
+:root {
+  --hextech-black: #010A13;
+  --gold-4: #C89B3C;
+  --blue-6: #091428;
+  --blue-3: #0397AB;
+  --blue-7: #0A1428;
+}
+
+html, body {
+  margin:0px;
+  height:100%;
+}
+
+hr.solid {
+  border-top: 1px solid var(--gold-4);
+  width: 98%;
+  border-bottom: none;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--hextech-black);
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.Logo-container {
+  margin-top: 5vh;
+  width: 30vw;
+}
+
+.App-logo {
+  font-family: 'Beaufort';
+  font-size: 6vh;
+  color: var(--gold-4);
+  margin: 0;
+}
+
+.Subtitle {
+  font-family: 'Beaufort';
+  font-size: 3vh;
+  color: var(--gold-4);
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.Section-title {
+  font-family: 'Beaufort';
+  font-size: 2vh;
+  color: var(--gold-4);
+  margin: 0;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.Instructions {
+  font-family: 'BeaufortBold';
+  color: white;
+  font-size: 2vh;
+}
+
+.Input-container {
+  width: 30vw;
+  display: flex;
+}
+
+.Summoner-input {
+  display: flex;
+  flex: 1;
+  background-color: var(--blue-6);
+  padding: 12px 20px;
+  border: 1px solid var(--gold-4);
+  font-family: 'Beaufort';
+  color: var(--gold-4);
+  font-size: 2vh;
+}
+
+.Region-select {
+  background-color: var(--gold-4);
+  padding: 12px 20px;
+  border: 1px solid var(--gold-4);
+  font-family: 'BeaufortItalic';
+  color: var(--hextech-black);
+  font-size: 2vh;
+}
+
+.Submit-button {
+  border: 2px solid var(--blue-3);
+  background-color: var(--blue-7);
+  font-family: 'Beaufort';
+  font-size: 1.5vh;
+  color: white;
+  margin-top: 2vh;
+  padding: 10px 20px;
+}
+
+.Error-message {
+  font-family: "Beaufort";
+  color: red;
+}
+
+.Loading-label {
+  font-family: "Beaufort";
+  color: var(--gold-4);
+  font-size: 1.5vh;
+}
+
+.Text-section {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Golden-text {
+  font-family: "BeaufortBold";
+  color: var(--gold-4);
+  font-size: 2vh;
+  padding-left: 50px;
+  margin: 0;
+  text-align: left;
+}
+
+.White-text {
+  font-family: "BeaufortBold";
+  color: white;
+  font-size: 2vh;
+  padding-left: 10px;
+  padding-right: 50px;
+  margin: 0;
+  text-align: left;
+}
