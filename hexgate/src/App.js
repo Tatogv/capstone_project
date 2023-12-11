@@ -49,9 +49,14 @@ function App() {
         summonerRegion: region,
       });
       console.log(result.data);
-      setResponse(result.data);
+      console.log(result);
+      if(result.status !== 200 || Object.keys(result.data).length === 0) {
+        setError('An error has occurred. Make sure your summoner name is correct and that a match is in progress.');
+      } else {
+        setResponse(result.data);
+      }
     } catch (error) {
-      setError(error);
+      setError('An error has occurred. Make sure your summoner name is correct and that a match is in progress.');
     }
     setLoading(false);
   };
